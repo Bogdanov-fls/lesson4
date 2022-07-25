@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:regular,700');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;1,300&display=swap');
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+li {
+	list-style: none;
+}
+
+a,
+a:visited {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+
+img {
+	vertical-align: top;
+}
+
+html {
+	font-size: 16px;
+	/* по умолчанию */
+}
+
+body {
+	/* font-family: "Roboto", sans-serif; */
+	line-height: 1;
+}
+
+/* ------------------------------ */
+.roboto {
+	font-family: "Roboto", sans-serif;
+}
+
+.montserrat {
+	font-family: "Montserrat", sans-serif;
+}
+.size20 {
+	font-size: 20px;
+}
+
+.size40 {
+	font-size: 40px;
+}
+.weight700 {
+	font-weight: 700;
+	font-size: 30px;
+}
+.light300 {
+	font-family: "Montserrat", sans-serif;
+	font-size: 24px;
+	font-weight: 300;
+}
+.colorred {
+	color: red;
+}
+.center {
+	text-align: center;
+}
+
+.justify {
+	text-align: justify;
+}
+
+.right {
+	text-align: right;
+}
+.linethough {
+	text-decoration: line-through;
+}
+
+.overline {
+	text-decoration: overline;
+}
+
+.underline {text-decoration: underline;}
+
+.capitalize {
+	text-transform: capitalize;
+}
+
+.uppercase {text-transform: uppercase;}
+
+.lovercase {
+	text-transform: lowercase;
+}
+.lineheight {
+	line-height: 40px;
+}
